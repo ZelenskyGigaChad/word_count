@@ -9,4 +9,4 @@ quitter = ""
 #Tant que l'utilisateur ne quitte pas, on continue le code
 while quitter != "oui":
     compteur_de_mots()
-    quitter = input("Voulez-vous quitter? : ").lower()
+    quitter = input("Voulez-vous quitter? : ").lower();
