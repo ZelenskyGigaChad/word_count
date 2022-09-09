@@ -7,6 +7,6 @@ def compteur_de_mots():
 
 quitter = ""
 #Tant que l'utilisateur ne quitte pas, on continue le code
-while quitter != "oui" and quitter != "OUI":
+while quitter != "oui":
     compteur_de_mots()
-    quitter = input("Voulez-vous quitter? : ")
+    quitter = input("Voulez-vous quitter? : ").lower()
