@@ -1,12 +1,13 @@
 #On crée notre fonction pour exécuter le programme de "comptage" de mots
-def compteur_de_mots():
+def count_word(counter = str):
 #On demande a l'utilisateur de crée une phrase
-    count_word = input("Votre phrase : ")
+    counter = input("Votre phrase : ")
 #On affiche le nombre de mots
-    print(len(count_word.split()), "mots")
+    print(len(counter.split()), "mots")
+    return counter
 
 quitter = ""
 #Tant que l'utilisateur ne quitte pas, on continue le code
 while quitter != "oui":
-    compteur_de_mots()
+    count_word()
     quitter = input("Voulez-vous quitter? : ").lower()
