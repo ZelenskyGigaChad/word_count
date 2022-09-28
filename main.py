@@ -6,9 +6,11 @@ def count_word(phrase):
 quitter = ""
 #Tant que l'utilisateur ne quitte pas, on continue le code
 while quitter != "oui":
-#On prend un input en str pour faire activer la fonction count_word, puis on l'affiche
+#On prend un input en str
     la_fameuse_phrase = input("Votre phrase : ")
+#On appele la fonction count word avec l'input de la variable 'la fameuse phrase'
     execution = count_word(la_fameuse_phrase)
+#On affiche le nombre de mots    
     print(execution, 'mots')
 
     quitter = input("Voulez-vous quitter? : ").lower()
