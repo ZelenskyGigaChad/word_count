@@ -1,3 +1,6 @@
+#Renaud Deschenes
+#27 septembre 2022
+#Compteur de mots Tp1
 #On crée notre fonction pour exécuter le programme de "comptage" de mots.
 def count_word(phrase):
 #On retourne le nombre de mots
